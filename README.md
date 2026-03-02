@@ -60,9 +60,12 @@ Reports will be generated in the workspace root (e.g., `report.html`).
 ├── README.md             # (this file)
 └── api_responses.log     # logged API request/response details
 ```
-## *Report**
+## **Report**
+Web Automation Report:
+<img width="1900" height="1039" alt="image" src="https://github.com/user-attachments/assets/0ef008a8-b31a-425d-98d5-8beb56f86de3" />
 
-API Testing Report:
+
+API Automation Report:
 <img width="1900" height="1039" alt="image" src="https://github.com/user-attachments/assets/5f4efbce-0d97-4f2b-ac6f-5baf107f4d11" />
 <img width="1900" height="1039" alt="image" src="https://github.com/user-attachments/assets/90366343-4a4a-4fd7-b692-676d49350f90" />
 
