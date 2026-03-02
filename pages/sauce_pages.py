@@ -25,6 +25,13 @@ class SauceLoginPage:
         self.password.fill(password)
         self.login_button.click()
 
+
+    def login2(self, username: str, password: str):
+        self.username.fill(username)
+        self.password.fill(password)
+        self.login_button.click()
+
+
     def get_error_text(self) -> str:
         return self.error.text_content() or ""
 
@@ -119,3 +126,4 @@ class CheckoutStepTwoPage:
 
     def finish(self):
         self.finish_button.click()
+
