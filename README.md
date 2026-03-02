@@ -1,4 +1,4 @@
-# Playwright Web & API Automation 
+# Playwright
 # Web & API Automation Project
 
 This repository contains automated tests for both web UI (SauceDemo) and RESTful API (Restful Booker) using Python-based frameworks.
