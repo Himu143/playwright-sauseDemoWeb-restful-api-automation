@@ -85,14 +85,3 @@ def test_complete_checkout(page):
     checkout2.finish()
     checkout2.wait(1000)
     expect(page).to_have_url(re.compile("checkout-complete.html"))
-
-
-# no manual runner needed—pytest will handle browser lifecycle
-#def test_successful_login2(page):
-   # login2 = SauceLoginPage(page)
-   # login2.wait(4000)
-   # login2.login("standard_user", "secret_sauce")
-    # optional pause if you want to observe behavior or wait for rotation
-   # login2.wait(4000)  # milliseconds pause
-    # after successful login, should reach inventory page
-   # expect(page).to_have_url(re.compile("inventory.html"))
